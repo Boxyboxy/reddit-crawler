@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 @RestController
-@RequestMapping(path="/", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(path="/reddit", produces = MediaType.APPLICATION_JSON_VALUE)
 public class JsoupController {
 
     @GetMapping("/test")
