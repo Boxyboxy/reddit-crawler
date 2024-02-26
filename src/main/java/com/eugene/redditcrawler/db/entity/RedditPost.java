@@ -30,13 +30,13 @@ public class RedditPost {
 
 
     // Constructor without id (for inserting new records)
-    public RedditPost(String subreddit, String title, String author, Integer upvotes, Integer comments, String link,
-                      LocalDateTime creationDateTime, LocalDateTime retrievalDateTime) {
+    public RedditPost(String subreddit, String title, String author, Integer upvotes, Integer comments, String link, LocalDateTime creationDateTime, LocalDateTime retrievalDateTime) {
         this.subreddit = subreddit;
         this.title = title;
         this.author = author;
         this.upvotes = upvotes;
         this.comments = comments;
+        this.link = link;
         this.creationDateTime = creationDateTime;
         this.retrievalDateTime = retrievalDateTime;
     }
